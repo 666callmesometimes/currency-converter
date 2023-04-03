@@ -35,6 +35,6 @@ const convertCurrency = (currency, amount) => {
   console.log('USD: '+ convertedValues.usd);
   console.log('RMB: '+ convertedValues.rmb);
 
-  o1.innerHTML = 'PLN: '+ convertedValues.pln + ' zł';
-  o2.innerHTML = 'USD: '+ convertedValues.usd + ' $';
-  o3.innerHTML = 'RMB: '+ convertedValues.rmb + ' ¥';
+  o1.innerHTML = 'PLN: '+ convertedValues.pln + 'zł';
+  o2.innerHTML = 'USD: '+ convertedValues.usd + '$';
+  o3.innerHTML = 'RMB: '+ convertedValues.rmb + '¥';
