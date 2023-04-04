@@ -3,9 +3,6 @@ body {
   background-color: #121220;
   color: white;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 input,
 select,
@@ -28,4 +25,9 @@ input:focus {
 }
 button{
   cursor: pointer;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
