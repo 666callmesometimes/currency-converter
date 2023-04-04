@@ -1,6 +1,6 @@
 function calCurrency() {
     let x = document.getElementById("curSelect").value;
-    let y = parseInt(document.getElementById("val").value);
+    let y = parseFloat(document.getElementById("val").value);
     y = y.toFixed(2);
     console.log(x);
     console.log(y);
