@@ -1,0 +1,28 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #121220;
+  color: white;
+  text-align: center;
+}
+input,
+select,
+button {
+  background-color: #121220;
+  border: none;
+  border-bottom: 1px solid #565656;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  margin: 25px;
+}
+table {
+  margin: auto;
+  width: 30%;
+}
+input:focus {
+  outline: none;
+  border-bottom: 1px solid #aaa;
+  transition: 400ms;
+}
+button{
+  cursor: pointer;
+}

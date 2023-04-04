@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RMB Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <input type="number" placeholder="Insert value" id="val" />
+  <select name="curSelect" id="curSelect">
+    <option selected="true" value="rmb">RMB</option>
+    <option value="pln">PLN</option>
+    <option value="usd">USD</option>
+  </select>
+  <table>
+    <tr>
+      <td id="inRMB">RMB:</td>
+      <td id="inPLN">PLN:</td>
+      <td id="inUSD">USD:</td>
+    </tr>
+  </table>
+  <button onclick="calCurrency()">Calculate</button>
+  <body>
+    <script src="app.js">
+      
+    </script>
+  </body>
+</html>
