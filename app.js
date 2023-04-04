@@ -6,27 +6,27 @@ function calCurrency() {
     console.log(y);
     switch (x) {
       case "rmb": {
-        document.getElementById("inRMB").innerHTML = "RMB: " + y * 1 + "¥";
+        document.getElementById("inRMB").innerHTML = "RMB: " + parseFloat(y * 1).toFixed(2) + "¥";
         document.getElementById("inPLN").innerHTML =
-          "PLN: " + y * 0.62 + "zł";
+          "PLN: " + parseFloat(y * 0.62).toFixed(2) + "zł";
         document.getElementById("inUSD").innerHTML =
-          "USD: " + y * 0.15 + "$";
+          "USD: " + parseFloat(y * 0.15).toFixed(2)  + "$";
         break;
       }
       case "pln": {
         document.getElementById("inRMB").innerHTML =
-          "RMB: " + y * 1.61 + "¥";
-        document.getElementById("inPLN").innerHTML = "PLN: " + y * 1 + "zł";
+          "RMB: " + parseFloat(y * 1.61).toFixed(2) + "¥";
+        document.getElementById("inPLN").innerHTML = "PLN: " + parseFloat(y * 1).toFixed(2)  + "zł";
         document.getElementById("inUSD").innerHTML =
-          "USD: " + y * 0.23 + "$";
+          "USD: " + praseFloat(y * 0.23).toFixed(2)  + "$";
         break;
       }
       case "usd": {
         document.getElementById("inRMB").innerHTML =
-          "RMB: " + y * 6.88 + "¥";
+          "RMB: " + parseFloat(y * 6.88).toFixed(2)  + "¥";
         document.getElementById("inPLN").innerHTML =
-          "PLN: " + y * 4.27 + "zł";
-        document.getElementById("inUSD").innerHTML = "USD: " + y * 1 + "$";
+          "PLN: " + parseFloat(y * 4.27).toFixed(2)  + "zł";
+        document.getElementById("inUSD").innerHTML = "USD: " + parseFloat(y * 1).toFixed(2)  + "$";
         break;
       }
     }
