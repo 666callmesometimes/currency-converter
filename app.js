@@ -18,7 +18,7 @@ function calCurrency() {
           "RMB: " + parseFloat(y * 1.61).toFixed(2) + "¥";
         document.getElementById("inPLN").innerHTML = "PLN: " + parseFloat(y * 1).toFixed(2)  + "zł";
         document.getElementById("inUSD").innerHTML =
-          "USD: " + praseFloat(y * 0.23).toFixed(2)  + "$";
+          "USD: " + parseFloat(y * 0.23).toFixed(2)  + "$";
         break;
       }
       case "usd": {
